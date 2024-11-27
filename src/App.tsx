@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styles from "./App.module.css";
 import leftArrowImage from "./assets/leftarrow.png";
-import powerImage from "./assets/powered.png";
 import { GridItem } from "./components/GridItem";
 
 import { calculteImc, Level, levels } from "./helpers/imc";
@@ -25,11 +24,17 @@ const App = () => {
     setWeightField(0);
   };
 
+  const handleRedirect = () => {
+    window.location.href = "https://github.com/Cleuvin-dev";
+  };
+
   return (
     <div className={styles.main}>
       <header>
         <div className={styles.headerContainer}>
-          <img src={powerImage} alt="" width={150} />
+          <button className={styles.linkProfile} onClick={handleRedirect}>
+            GitHub: Cleuvin-dev
+          </button>
         </div>
       </header>
       <div className={styles.container}>
