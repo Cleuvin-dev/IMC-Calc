@@ -3,11 +3,10 @@
 Projeto em React + Typescript fazendo uma calculadora de IMC.
 Índice de Massa Corpórea.
 
-Projeto desenvolvido durante o treinamento da plataforma, totalmento responsive e funcional.
-[B7Web]<https://b7web.com.br>
+Projeto desenvolvido durante o treinamento da plataforma, totalmento responsivo e funcional.<br>
+<a href="https://b7web.com.br">B7Web</a>
 
-Irei adicioando links de treinos e dietas específicas para cada
-tipo de IMC calculado, caso o usuario interesse.
+Irei adicionando links.
 
 Tela inicial.
 ![Primeira Pagina](./src/assets/firstPage.png)
